@@ -1,0 +1,157 @@
+.banner {
+    &.skills {
+        min-height: 100vh;
+        display: flex;
+        align-items: flex-end;
+        background-color: #166857 !important;
+        .col {
+            max-width: 100px;
+            background-color: #eceff3;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin: 0 10px;
+            img {
+                width: 100px;
+                display: block;
+                margin: auto;
+                text-align: center;
+                animation: html-lang .5s linear;
+                position: relative;
+                margin-top: -100px;
+            }
+            &:not(:first-child) {
+                margin-left: 40px;  
+            }
+            &.html {
+                height:400px;
+                animation: html 2s  linear;
+            }
+            &.css {
+                height: 380px;
+                animation: css 2s linear;
+            }
+            &.scss {
+                height: 360px;
+                animation: scss 2s linear ;
+            }
+            &.bootstrap {
+                height: 330px;
+                animation: boot 2s linear;
+            }
+            &.javascript {
+                height: 250px;
+                animation: js 2s linear;
+            }
+            &.git {
+                height: 175px;
+                animation: git 2s linear;
+            }
+            &.gsap {
+                height: 150px;
+                animation: gsap 2s linear;
+            }
+            &.shopify {
+                height: 370px;
+                animation: shop 2s linear ;
+            }
+            &.wp {
+                height: 250px;
+                animation: wp 2s linear;
+            }
+        }
+    }
+}
+
+
+// @keyframes html {
+//     from {
+//         height: 20%;
+//     }
+//     to {
+//         height: 400px;
+//     }
+// }
+// @keyframes css {
+//     from {
+//         height: 20%;
+//     }
+//     to {
+//         height: 380px;
+//     }
+// }
+// @keyframes scss {
+//     from {
+//         height: 20%;
+//     }
+//     to {
+//         height: 370px;
+//     }
+// }
+// @keyframes boot {
+//     from {
+//         height: 20%;
+//     }
+//     to {
+//         height: 330px;
+//     }
+// }
+// @keyframes js {
+//     from {
+//         height: 20%;
+//     }
+//     to {
+//         height: 250px;
+//     }
+// }
+
+
+// @keyframes git {
+//     from {
+//         height: 20%;
+//     }
+//     to {
+//         height: 175px;
+//     }
+// }
+// @keyframes shop {
+//     from {
+//         height: 20%;
+//     }
+//     to {
+//         height: 370px;
+//     }
+// }
+// @keyframes wp {
+//     from {
+//         height: 20%;
+//     }
+//     to {
+//         height: 250px;
+//     }
+// }
+// @keyframes gsap {
+//     from {
+//         height: 20%;
+//     }
+//     to {
+//         height: 150px;
+//     }
+// }
+
+@keyframes html-lang {
+    0% {
+        top: -150px;
+    }
+    25% {
+        top: -140px;
+    }
+    50% {
+        top: -130px;
+    }
+    60%{
+        top: -120px;
+    }
+    70% {
+        top: -100px;
+    }
+}
